@@ -11,6 +11,7 @@
       in {
         packages.default = pkgs.writeTextDir "index.html" ''
           Hello world!
+          This is the personal website of Paul-Nicolas Madelaine.
         '';
       });
 
