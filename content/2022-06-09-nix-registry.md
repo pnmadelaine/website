@@ -27,7 +27,7 @@ used by our flake-defined configuration.
 
 The module to configure the Nix registry looks like this:
 
-```
+```Nix
 {
 
   inputs = {
