@@ -19,7 +19,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('GitHub', 'https://github.com/pnmadelaine'),)
 
 # Social widget
-#SOCIAL = ()
+SOCIAL = (('Mastodon', 'https://mamot.fr/@pnm'),)
 
 DEFAULT_PAGINATION = 10
 
