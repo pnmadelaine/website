@@ -9,7 +9,11 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
-        python = pkgs.python3.withPackages (ps: with ps; [ markdown pelican ]);
+        python = pkgs.python3.withPackages (ps:
+          with ps; [
+            markdown
+            (pelican.overrideAttrs (_: _: { patches = [ ./pelican.patch ]; }))
+          ]);
         website = pkgs.stdenv.mkDerivation {
           name = "website";
           src = ./.;
