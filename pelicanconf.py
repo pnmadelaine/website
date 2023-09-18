@@ -16,7 +16,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('GitHub', 'https://github.com/pnmadelaine'),)
+LINKS = (('GitHub', 'https://github.com/pnmadelaine'),
+         ('Lichess', 'https://lichess.org/@/pnmadelaine'),
+         ('Chess.com', 'https://chess.com/member/pnmadelaine'))
 
 # Social widget
 SOCIAL = (('Mastodon', 'https://mamot.fr/@pnm'),)
