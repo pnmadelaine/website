@@ -10,11 +10,15 @@
       let
         pkgs = import nixpkgs { inherit system; };
         python = pkgs.python3.withPackages (ps: with ps; [ markdown pelican ]);
+        website = pkgs.stdenv.mkDerivation {
+          name = "website";
+          src = ./.;
+          nativeBuildInputs = [ python ];
+          buildFlags = [ "publish" ];
+          installPhase = "cp -r output $out";
+        };
       in {
-        packages.default = pkgs.writeTextDir "index.html" ''
-          Hello world!
-          This is the personal website of Paul-Nicolas Madelaine.
-        '';
+        packages.default = website;
         devShells.default = pkgs.mkShell { packages = [ python ]; };
       });
 
