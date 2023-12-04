@@ -17,6 +17,6 @@ params:
         - name: lichess
           url: "https://lichess.org/@/pnmadelaine"
         - name: email
-          url: "pnm@pnm.tf"
+          url: "mailto:pnm@pnm.tf"
         - name: rss
           url: "index.xml"
