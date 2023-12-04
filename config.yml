@@ -1,0 +1,22 @@
+baseURL: "https://pnm.tf/"
+title: Personal website of Paul-Nicolas Madelaine
+theme: papermod
+
+params:
+    homeInfoParams:
+        Title: Hello world!
+        Content: |
+            My name is *Paul-Nicolas Madelaine*, often shortened to *PNM*. I am
+            a research engineer at Inria and a Nix enthusiast. My pronouns are
+            *he/him*.
+    socialIcons:
+        - name: github
+          url: "https://github.com/pnmadelaine"
+        - name: mastodon
+          url: "https://mamot.fr/@pnm"
+        - name: lichess
+          url: "https://lichess.org/@/pnmadelaine"
+        - name: email
+          url: "pnm@pnm.tf"
+        - name: rss
+          url: "index.xml"

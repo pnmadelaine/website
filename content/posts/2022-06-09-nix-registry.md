@@ -1,8 +1,8 @@
-Title: Nix registry
-Author: Paul-Nicolas Madelaine
-Date: 2022-06-09
-Category: Blog
-Summary: A quick note about a small trick I implemented in my NixOS configurations.
+---
+title: Nix registry
+date: 2022-06-09
+summary: A quick note about a small trick I implemented in my NixOS configurations.
+---
 
 *A quick note about a small trick I implemented in my NixOS configurations.*
 

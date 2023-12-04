@@ -1,8 +1,8 @@
-Title: A Nix Flake Template
-Author: Paul-Nicolas Madelaine
-Date: 2023-11-07
-Category: Blog
-Summary: I wrote a Flake template
+---
+title: A Nix Flake Template
+date: 2023-11-07
+summary: I wrote a Nix ❄ Template
+---
 
 I learned to use Nix when flakes were already ubiquitous, and I realized
 recently that by learning Nix through flakes I adopted some bad coding habits. I
