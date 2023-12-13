@@ -25,18 +25,21 @@ map "nixpkgs" to a specific revision of the repository. Using the "rev"
 attribute of a flake input, we can even point it to the same revision as the one
 used by our flake-defined configuration.
 
+Just be sure not to use the "nixpkgs" flake URL in your configuration flake,
+otherwise `nix flake update` won't update nixpkgs!
+
 The module to configure the Nix registry looks like this:
 
 ```Nix
 {
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
   outputs = { self, nixpkgs, }: {
 
-    nixosModule = {
+    nixosModules.default = {
       nix.registry.nixpkgs = {
         from = {
           type = "indirect";
