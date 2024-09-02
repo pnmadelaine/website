@@ -7,7 +7,7 @@ params:
         Title: Hello world!
         Content: |
             My name is *Paul-Nicolas Madelaine*, often shortened to *PNM*. I am
-            a research engineer at Inria and a Nix enthusiast. My pronouns are
+            a software engineer in Paris and a Nix enthusiast. My pronouns are
             *he/him*.
     socialIcons:
         - name: github
