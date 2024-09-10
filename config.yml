@@ -18,7 +18,7 @@ params:
           url: "https://lichess.org/@/pnmadelaine"
         - name: email
           url: "mailto:pnm@pnm.tf"
-        - name: phone
+        - name: signal
           url: "signal"
         - name: rss
           url: "index.xml"
