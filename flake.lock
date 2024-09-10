@@ -33,10 +33,27 @@
         "type": "github"
       }
     },
+    "papermod": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1723905772,
+        "narHash": "sha256-iKKAAR5ipeimIgC137tbpkWlwIzNDAcPPKNLwdhW1CI=",
+        "owner": "adityatelange",
+        "repo": "hugo-papermod",
+        "rev": "58c4841c26325eaa788d9b13e65d5dfc95d9367c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "adityatelange",
+        "repo": "hugo-papermod",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "papermod": "papermod"
       }
     },
     "systems": {
