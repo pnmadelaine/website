@@ -1,14 +1,15 @@
 baseURL: "https://pnm.tf/"
-title: Personal website of Paul-Nicolas Madelaine
+title: pnm.tf
 theme: papermod
 
 params:
-  homeInfoParams:
-    Title: Hello world!
-    Content: |
-      My name is *Paul-Nicolas Madelaine*, often shortened to *PNM*. I am
-      a software engineer in Paris and a Nix enthusiast. My pronouns are
-      *he/him*.
+  profileMode:
+    enabled: true
+    title: "*Paul-Nicolas Madelaine*"
+    imageUrl: "me.jpg"
+    buttons:
+      - name: Blog
+        url: "/posts"
   socialIcons:
     - name: github
       url: "https://github.com/pnmadelaine"
