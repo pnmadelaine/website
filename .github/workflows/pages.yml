@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: actions/checkout@v4
-      - run: nix build
+      - run: nix-build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: result/
