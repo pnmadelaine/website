@@ -3,22 +3,22 @@ title: Personal website of Paul-Nicolas Madelaine
 theme: papermod
 
 params:
-    homeInfoParams:
-        Title: Hello world!
-        Content: |
-            My name is *Paul-Nicolas Madelaine*, often shortened to *PNM*. I am
-            a software engineer in Paris and a Nix enthusiast. My pronouns are
-            *he/him*.
-    socialIcons:
-        - name: github
-          url: "https://github.com/pnmadelaine"
-        - name: mastodon
-          url: "https://mamot.fr/@pnm"
-        - name: lichess
-          url: "https://lichess.org/@/pnmadelaine"
-        - name: email
-          url: "mailto:pnm@pnm.tf"
-        - name: signal
-          url: "signal"
-        - name: rss
-          url: "index.xml"
+  homeInfoParams:
+    Title: Hello world!
+    Content: |
+      My name is *Paul-Nicolas Madelaine*, often shortened to *PNM*. I am
+      a software engineer in Paris and a Nix enthusiast. My pronouns are
+      *he/him*.
+  socialIcons:
+    - name: github
+      url: "https://github.com/pnmadelaine"
+    - name: mastodon
+      url: "https://mamot.fr/@pnm"
+    - name: lichess
+      url: "https://lichess.org/@/pnmadelaine"
+    - name: email
+      url: "mailto:pnm@pnm.tf"
+    - name: signal
+      url: "signal"
+    - name: rss
+      url: "index.xml"
