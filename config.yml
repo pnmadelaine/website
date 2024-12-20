@@ -20,6 +20,6 @@ params:
     - name: email
       url: "mailto:pnm@pnm.tf"
     - name: signal
-      url: "signal"
+      url: "https://signal.me/#eu/hWthJSTfgzauZR0dx-o9ED0hkconKE1zsU1gIM0fVJ_YkU2pfG5CU5HWV5IH7Ops"
     - name: rss
       url: "index.xml"
