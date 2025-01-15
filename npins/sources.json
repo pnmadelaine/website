@@ -1,0 +1,23 @@
+{
+  "pins": {
+    "hugo-papermod": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "adityatelange",
+        "repo": "hugo-papermod"
+      },
+      "branch": "master",
+      "revision": "9f1f414be805a2f94e2f51bd4be2b365ff12386d",
+      "url": "https://github.com/adityatelange/hugo-papermod/archive/9f1f414be805a2f94e2f51bd4be2b365ff12386d.tar.gz",
+      "hash": "1195j3bha85iyd8ll5x2lrq8y4an52vd2gbfzgcvpxr0lck85a2x"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.05pre738273.0bd024d34eb0/nixexprs.tar.xz",
+      "hash": "1i9krk68w7k19wzhfybmzgxyf9v24bpbr1hrlj840yd4c5hx3fnn"
+    }
+  },
+  "version": 3
+}
